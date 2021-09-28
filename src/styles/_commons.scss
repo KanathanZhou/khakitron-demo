@@ -1,0 +1,25 @@
+@import "theme";
+
+.jtTabSection {
+  background-color: $light;
+
+  .jtTitle {
+    min-height: 60px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    display: flex;
+    align-items: center;
+  }
+}
+
+.jtTab {
+  font-weight: 500 !important;
+  color: $info !important;
+}
+
+
+.mainActivity {
+  max-width: 1284px;
+  padding: 16px;
+  margin: 0 auto;
+}

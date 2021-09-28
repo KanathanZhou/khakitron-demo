@@ -1,0 +1,25 @@
+@import "theme";
+
+@mixin colorPrimary {
+  color: $primary;
+}
+
+@mixin colorSecondary {
+  color: $secondary;
+}
+
+@mixin colorInfo {
+  color: $info;
+}
+
+.colorPrimary {
+  @include colorPrimary;
+}
+
+.colorSecondary {
+  @include colorSecondary;
+}
+
+.colorInfo {
+  @include colorInfo;
+}
